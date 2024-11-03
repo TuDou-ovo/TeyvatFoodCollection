@@ -1,0 +1,189 @@
+{
+    "Changes": [
+        {
+            "LogName": "温室时间变化",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Morepotatoes.greenhouse",
+            "FromFile": "assets/Map/greenhouse_n.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "Time": "{{Range: 1800, 2600}}"
+            },
+            "Update": "OnTimeChange"
+        },
+        {
+            "LogName": "温室天气变化",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Morepotatoes.greenhouse",
+            "FromFile": "assets/Map/greenhouse_n.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "Weather": "Rain,Storm,Snow"
+            },
+            "Update": "OnTimeChange"
+        },
+        {
+            "LogName": "替换商店入口",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/Map/Storeentrance.tmx",
+            "ToArea": {
+                "X": 34,
+                "Y": 6,
+                "Width": 3,
+                "Height": 3
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "小镇传送点",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "AddWarps": [
+                "35 7 Custom_Morepotatoes.Catshop 0 0",
+            ],
+            "MapProperties": {
+                "NPCWarp": "35 7 Custom_Morepotatoes.Catshop 0 0"
+            }
+        },
+        {
+            "LogName": "猫商传送点",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Morepotatoes.Catshop",
+            "AddWarps": [
+                "0 0 Town 35 9"
+            ],
+            "MapProperties": {
+                "NPCWarp": "0 0 Town 35 9"
+            }
+        },
+        {
+            "LogName": "卧室1F传送点",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Morepotatoes.Cathome1F",
+            "AddWarps": [
+                "传送x y Custom_Morepotatoes.Catshop 0 0",
+                "传送x y Custom_Morepotatoes.Cathome2F 0 0"
+            ],
+            "MapProperties": {
+                "NPCWarp": "传送x y Custom_Morepotatoes.Catshop 0 0 传送x y Custom_Morepotatoes.Cathome2F 0 0"
+            }
+        },
+        {
+            "LogName": "卧室2F传送点",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Morepotatoes.Cathome2F",
+            "AddWarps": [
+                "传送x y Custom_Morepotatoes.Cathome1F 0 0"
+            ],
+            "MapProperties": {
+                "NPCWarp": "传送x y Custom_Morepotatoes.Cathome1F 0 0"
+            }
+        },
+        {
+            "LogName": "平原传送点",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Morepotatoes.plain",
+            "AddWarps": [
+                "传送x y Custom_Morepotatoes.PotatoSandPlain 0 0",
+                "传送x y Custom_Morepotatoes.village 0 0"
+            ],
+            "MapProperties": {
+                "NPCWarp": "传送x y Custom_Morepotatoes.PotatoSandPlain 0 0 传送x y Custom_Morepotatoes.village 0 0"
+            }
+        },
+        {
+            "LogName": "沙原传送点",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Morepotatoes.PotatoSandPlain",
+            "AddWarps": [
+                "传送x y Custom_Morepotatoes.plain 0 0",
+                "传送x y Custom_Morepotatoes.mine1 0 0"
+            ]
+        },
+        {
+            "LogName": "村庄传送点",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Morepotatoes.village",
+            "AddWarps": [
+                "传送x y Custom_Morepotatoes.plain 0 0"
+            ],
+            "MapProperties": {
+                "NPCWarp": "传送x y Custom_Morepotatoes.plain 0 0"
+            }
+        },
+        {
+            "LogName": "宫殿传送点",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Morepotatoes.palace",
+            "AddWarps": [
+                "传送x y Town 落地x y"
+            ]
+        },
+        {
+            "LogName": "温室传送点",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Morepotatoes.greenhouse",
+            "AddWarps": [
+                "10 32 Custom_Morepotatoes.palace 0 0",
+                "11 32 Custom_Morepotatoes.palace 0 0"
+            ]
+        },
+        {
+            "LogName": "卧室传送点",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Morepotatoes.plainhome",
+            "AddWarps": [
+                "传送x y Custom_Morepotatoes.palace 0 0"
+            ]
+        },
+        {
+            "LogName": "地图家具",
+            "Action": "EditData",
+            "Target": "Data/ChairTiles",
+            "Entries": {
+                "ID/17/6": "1/1/down/default/1/1/false"
+            }
+        },
+        {
+            "LongName": "地图交互点",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "no": "{{i18n:no}}", 
+                
+                "Catshop": "{{i18n:Catshop}}",
+                "Catshop1": "{{i18n:Catshop1}}",
+                "Catshop2": "{{i18n:Catshop2}}",
+                "Catshop3": "{{i18n:Catshop3}}",
+                "Catshop4": "{{i18n:Catshop4}}",
+                "Catshop5": "{{i18n:Catshop5}}",
+                "Catshop6": "{{i18n:Catshop6}}",
+                "Catshop7": "{{i18n:Catshop7}}",
+                "Catshop8": "{{i18n:Catshop8}}",
+                "Catshop9": "{{i18n:Catshop9}}",
+                "Catshop10": "{{i18n:Catshop10}}",
+
+                "Cathome1F": "{{i18n:Cathome1F}}",     
+
+                "Cathome2F": "{{i18n:Cathome2F}}",
+
+                "plain": "{{i18n:plain}}",
+
+                "PotatoSandPlain": "{{i18n:PotatoSandPlain}}",
+
+                "village": "{{i18n:village}}",
+
+                "palace": "{{i18n:palace}}",
+
+                "greenhouse": "{{i18n:greenhouse}}",
+
+                "plainhome": "{{i18n:plainhome}}",
+
+                "mine": "{{i18n:mine}}",
+
+                "PotatoSpiritHome": "{{i18n:PotatoSpiritHome}}"
+            }
+        },
+    ]
+}

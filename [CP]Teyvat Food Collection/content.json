@@ -1,0 +1,89 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "LogName": "物品贴图",
+      "Action": "Load",
+      "Target": "Mods/TeyvatFoodCollection/Objects",
+      "FromFile": "assets/Objects/Objects.png"
+    },
+    {
+      "LogName": "机器贴图",
+      "Action": "Load",
+      "Target": "Mods/TeyvatFoodCollection/Animation",
+      "FromFile": "assets/Objects/Animation.png"
+    },
+    {
+      "LogName": "作物贴图",
+      "Action": "Load",
+      "Target": "Mods/TeyvatFoodCollection/Crops",
+      "FromFile": "assets/Objects/Crops.png"
+    },
+    {
+      "LogName": "果树贴图",
+      "Action": "Load",
+      "Target": "Mods/TeyvatFoodCollection/FruitTrees",
+      "FromFile": "assets/Objects/FruitTrees.png"
+    },
+    {
+      "LogName": "物品",
+      "Action": "Include",
+      "FromFile": "assets/Data/Objects.json,"
+    },
+    {
+      "LogName": "配方",
+      "Action": "Include",
+      "FromFile": "assets/Data/Recipes.json,"
+    },
+    {
+      "LogName": "商店",
+      "Action": "Include",
+      "FromFile": "assets/Data/Shop.json,"
+    },
+    {
+      "LogName": "机器",
+      "Action": "Include",
+      "FromFile": "assets/Data/Machine.json,"
+    },
+    {
+      "LogName": "作物",
+      "Action": "Include",
+      "FromFile": "assets/Data/Crops.json,"
+    },
+    // {
+    //    "LogName": "地图",
+    //   "Action": "Include",
+    //   "FromFile": "assets/Data/Map.json,"
+    // },
+    {
+      "LogName": "蒙德",
+      "Action": "Include",
+      "FromFile": "assets/Food/Mondstadt.json,"
+    },
+    {
+      "LogName": "璃月",
+      "Action": "Include",
+      "FromFile": "assets/Food/Liyue.json,"
+    },
+    {
+      "LogName": "稻妻",
+      "Action": "Include",
+      "FromFile": "assets/Food/Inazuma.json,"
+    },
+    {
+      "LogName": "须弥",
+      "Action": "Include",
+      "FromFile": "assets/Food/Sumeru.json,"
+    },
+    {
+      "LogName": "枫丹",
+      "Action": "Include",
+      "FromFile": "assets/Food/Fontaine.json,"
+    },
+    {
+      "LogName": "纳塔",
+      "Action": "Include",
+      "FromFile": "assets/Food/Natlan.json,"
+    },
+  ]
+}

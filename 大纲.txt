@@ -1,0 +1,406 @@
+
+
+关于翻译
+对着图鉴手打的 可能会有错误
+没有翻译的是我没抽到 谁知道或者有统计了的网站可以敲敲我 我真的很需要 拜托拜托
+
+
+前置
+Content Patcher    Extra Machine Configs
+
+胡萝卜 35
+蘑菇 40
+胡椒 盐 黄油 面粉 蛋 奶油 50
+火腿 韭葱 西红柿 60
+培根 香肠 70
+肉 土豆 金鱼草 80
+鱼 苹果 蟹黄 100
+奶 125
+薄荷 果酱 150
+甜甜花 200
+奶酪 230
+卷心菜 260
+小灯草 500
+
+
+     /*
+"FarmingLevel": 0, //耕种     暴击
+"FishingLevel": 0, //钓鱼     元素伤害
+"MiningLevel": 0, //挖掘      爆伤
+"LuckLevel": 0, //幸运        复活
+"ForagingLevel": 2, //觅食    治疗加成
+"MaxStamina": 0, //体力       回复百分比 
+"MagneticRadius": 0, //磁力   生命上限
+"Speed": 0, //速度            体力
+"Defense": 3, //防御          护盾强效
+"Attack": 0，//攻击           攻击力
+
+四星菜 40
+三星菜 30 
+二星菜 20
+一星菜 10
+
+s Farming 耕种 双爆
+s Fishing 钓鱼 元素
+s Mining 挖矿 防御
+s Foraging 觅食 体力 治疗加成
+s combat 战斗 攻击
+*/
+
+
+菜品 武器 都是特色菜和外观武 
+单手剑是剑 双手剑是锤 长枪是匕首 弓和法器...做成剑吧 我记得ie可以自定义飞行物
+
+璃月
+钟离 贯虹之槊
+白术 碧落之珑
+胡桃 护摩之仗
+闲云 鹤鸣余音
+夜兰 若水
+申鹤 灾息
+魈   和璞鸢
+
+须弥
+
+纳塔
+
+鸭鸭
+==================================================================================
+··················································································
+==================================================================================
+==================================================================================
+··················································································
+==================================================================================
+★★★★★
+
+天空系列
+
+天空之刃 Skyward Blade
+
+天空之傲 Skyward Pride
+
+天空之脊 Skyward Spine
+
+天空之卷 Skyward Atlas
+
+天空之翼 Skyward Harp
+
+四风系列
+
+风鹰剑 Aquila Fɑvonia
+
+狼的末路 Wolf’s Grɑvestone
+
+四风原典 Lost Prayer to the Sacred
+
+盾系列
+
+斫峰之刃 Summit Shaper
+
+无工之剑 The Unforged
+
+贯虹之槊 Vortex Vanquisher
+
+尘世之锁 Memory of Dust
+
+千年大乐章系列
+
+苍古自由之誓 Freedom-Sworn
+
+松籁响起之时 Song of Broken Pines
+
+终末嗟叹之诗 Elegy for the End
+
+翠玉系列
+
+磐岩结绿 Primordial Jade Cutter
+
+和璞鸢 Primordial Jade Winged Spear
+
+雷电系列
+
+雾切之回光 Mistsplitter Reforged
+
+薙草之稻光 Engulfing Lightning 
+
+神乐之真意 Kagura’s Verity
+
+飞雷之弦振 Thundering Pulse
+
+不灭月华 Everlasting Moonglow
+
+沙漠系列
+
+圣显之钥Key of Khai-Nisut
+
+赤沙之杖 Staff of the Scarlet Sands
+
+雨林系列
+
+千夜浮梦 A Thousand Floating
+
+猎人之径 Hunter's Path
+
+其它
+
+波乱月白经津 Haran Geppaku Futsu
+
+赤角石溃杵 Redhorn Stonethresher
+
+护摩之杖 Staff of Homa
+
+息灾 Calamity Queller
+
+阿莫斯之弓 Amos’ Bow
+
+冬极白星 Polar Star
+
+若水 Aqua Simulacra
+
+
+
+
+==================================================================================
+··················································································
+==================================================================================
+
+材料/Material
+
+日落果 Sunsettia
+
+苹果 Apple
+
+星蕈 Starshroom
+
+堇瓜 Lɑvender Melon
+
+水晶块 Crystal Chunk
+
+紫晶块 Amethyst Lump
+
+魔晶块 Magical Crystal Chunk
+
+铁块 Iron Chunk
+
+白铁块 White Iron Chunk
+
+星银矿石 Starsilver
+
+电气水晶 Electron Crystal
+
+冰雾花（花朵） Mister Flower (Corolla)
+
+烈焰花（花蕊） Flaming Flower (Stamen)
+
+薄荷 Mint
+
+树莓 Berry
+
+甜甜花 Sweet Flower
+
+蘑菇 Mushroom
+
+胡萝卜 Carrot
+
+白萝卜 Radish
+
+卷心菜 Cabbage
+
+小麦 Wheat
+
+松果 Pinecone
+
+金鱼草 Snapdragon
+
+香辛果 Harra Fruit
+
+墩墩桃 Zaytun Peach
+
+须弥蔷薇 Sumeru Rose
+
+毗波耶 Viparyas
+
+蝴蝶 Butterfly
+
+青蛙 Frog
+
+萤火虫 Firefly
+
+发光髓 Luminescent Spine
+
+晶蝶 Crystalfly
+
+晶核 Crystal Core
+
+蜥蜴尾巴 Lizard Tail
+
+鳅鳅宝玉 Loach Pearl
+
+布料 Fabric
+
+杉木 Fir Wood
+
+梦见木 Yumemiru Wood
+
+枫木 Maple Wood
+
+孔雀木 Aralia Wood
+
+御伽木 Otogi Wood
+
+垂香木 Fragrant Cedar Wood
+
+竹节 Bamboo Segment
+
+却砂木 Sandbeerer Wood
+
+松木 Pine Wood
+
+萃华木 Cuihua Wood
+
+桦木 Birch Wood
+
+辉木 Brightwood
+
+证悟木 Adhigama Wood
+
+业果木 Karmaphala Wood
+
+原坯 Billet
+
+兽肉 Raw Meat
+
+冷鲜肉 Chilled Meat
+
+禽肉 Fowl
+
+鳗肉 Unagi Meat
+
+鱼肉 Fish
+
+竹笋 Bamboo Shoot
+
+土豆 Potato
+
+西红柿 Tomato
+
+海草 Seagrass
+
+
+特产/Specialty
+
+钩钩果 Wolfhook
+
+落落莓 Valberry
+
+塞西莉亚花 Cecilia
+
+风车菊 Windwheel Aster
+
+慕风蘑菇 Philanemo Mushroom
+
+马尾 Horsetail
+
+绝云椒椒 Jueyun Chili
+
+夜泊石 Noctilucous Jade
+
+霓裳花 Silk Flower
+
+琉璃百合 Glaze Lily
+
+清心 Qingxin
+
+星螺 Starconch
+
+琉璃袋 *******grass
+
+小灯草 Small Lantern Grass
+
+蒲公英籽 Dandelion Seeds
+
+石珀 Cor Lapis
+
+鬼兜虫 Onikabuto
+
+绯樱绣球 Sakura Bloom
+
+晶化骨髓 Crystal Marrow
+
+血斛 Dendrobium
+
+鸣草 Naku ****
+
+海灵芝 Sea Ganoderma
+
+珊瑚真珠 Sango Pearl
+
+天云草实 Amakumo Fruit
+
+幽灯蕈 Fluorescent Fungus
+
+树王圣体菇 Rukkhashɑva Mushrooms
+
+帕蒂沙兰 Padisarah
+
+月莲 Nilotpala Lotus
+
+劫波莲 Kalpalata Lotus
+
+枣椰 Ajilenakh Nut
+
+赤念果 Henna Berry
+
+特产/Specialty
+
+树王圣体菇 Rukkhash**a Mushrooms
+
+帕蒂沙兰 Padisarah
+
+月莲 Nilotpala Lotus
+
+劫波莲 Kalpalata Lotus
+
+==================================================================================
+··················································································
+==================================================================================
+
+
+
+==================================================================================
+··················································································
+==================================================================================
+
+
+
+==================================================================================
+··················································································
+==================================================================================
+
+
+==================================================================================
+··················································································
+==================================================================================
+
+
+
+==================================================================================
+··················································································
+==================================================================================
+
+
+
+==================================================================================
+··················································································
+==================================================================================
+
+
+
+
+
+
+
+
+
+
+

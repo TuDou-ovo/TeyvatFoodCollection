@@ -1,0 +1,13 @@
+{
+    "Name": "提瓦特食集",
+    "Author": "土豆",
+    "Version": "1.0.0",
+    "Description": "来自原神的美食",
+    "UniqueID": "potato.TeyvatFoodCollectionCP",
+    "UpdateKeys": [
+        "Nexus: "
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

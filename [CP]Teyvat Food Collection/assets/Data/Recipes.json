@@ -1,0 +1,40 @@
+{
+    "Changes": [
+        {
+            "LogName": "物品配方",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                //火腿 【兽肉*2】【盐*1】
+                "TeyvatFoodCollection.Ham_Recipes": "TeyvatFoodCollection.RawMeat 2 TeyvatFoodCollection.salt 1/Home/TeyvatFoodCollection.Ham/false/Foraging 1/",
+                ////黄油 【牛奶*2】
+                "TeyvatFoodCollection.Butter_Recipes": "-6 2/Home/TeyvatFoodCollection.Butter/false/Foraging 1/",
+                ////奶油 【牛奶*1】
+                "TeyvatFoodCollection.Cream_Recipes": "-6 1/Home/TeyvatFoodCollection.Cream/false/Foraging 1/",
+                ////蟹黄 【螃蟹*4】
+                "TeyvatFoodCollection.CrabRoe_Recipes": "717 4/Home/TeyvatFoodCollection.CrabRoe/false/Fishing 1/",
+                ////培根 【兽肉*2】、【盐*2】
+                "TeyvatFoodCollection.Bacon_Recipes": "TeyvatFoodCollection.RawMeat 2 TeyvatFoodCollection.salt 2/Home/TeyvatFoodCollection.Bacon/false/Foraging 1/",
+                ////香肠 【兽肉*3】
+                "TeyvatFoodCollection.Sausage_Recipes": "TeyvatFoodCollection.RawMeat 3/Home/TeyvatFoodCollection.Sausage/false/Foraging 1/",
+                ////香辛料 【香辛果*2】
+                "TeyvatFoodCollection.Spice_Recipes": "TeyvatFoodCollection.HarraFruit 2/Home/TeyvatFoodCollection.Spice/false/Foraging 2/",
+                //「寻仙的美食家」 【铁*2】240 太阳精华*1 40
+                "TeyvatFoodCollection.AdeptiSeeker'sStove_Recipes": "335 2 768 1/Home/TeyvatFoodCollection.AdeptiSeeker'sStove/false/Foraging 5/"
+            }
+        },
+        {
+            "LogName": "料理配方",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                //极致一钓 螃蟹*4 400 嘟嘟莲*1 1000 薄荷*2 300
+                "TeyvatFoodCollection.SPrizeCatch_Recipes": "TeyvatFoodCollection.Mint 2 TeyvatFoodCollection.CallaLily 1 717 4/10 10/TeyvatFoodCollection.SPrizeCatch/s Mining 3/",
+                //炉火的往迹 兽肉*3 240 蛋*3 150 洋葱*2 140 茉洁草*2 480
+                "TeyvatFoodCollection.Hearthfire'sTrail_Recipes": "TeyvatFoodCollection.onion 2 TeyvatFoodCollection.Marcottr 2 TeyvatFoodCollection.RawMeat 3 -5 3/10 10/TeyvatFoodCollection.Hearthfire'sTrail/default/",
+                //饱腹感凝胶 薄荷*1 150 糖*1 50
+                "TeyvatFoodCollection.SatietyGel_Recipes": "TeyvatFoodCollection.Mint 1 245 1/10 10/TeyvatFoodCollection.SatietyGel/default/",
+            }
+        }
+    ]
+}

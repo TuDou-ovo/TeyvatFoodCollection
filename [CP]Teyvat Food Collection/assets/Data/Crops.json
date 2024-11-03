@@ -1,0 +1,468 @@
+{
+    "Changes": [
+        {
+            "LogName": "日落果果树",
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "TeyvatFoodCollection.Sunsettia_seed": {
+                    "DisplayName": "{{i18n:Sunsettia_seed.name}}",
+                    "Seasons": [
+                        "spring",
+                        "summer",
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ID": "Default",
+                            "ItemID": "(O)TeyvatFoodCollection.Sunsettia"
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/FruitTrees",
+                    "TextureSpriteRow": 0
+                }
+            }
+        },
+        {
+            "LogName": "泡泡桔果树",
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "TeyvatFoodCollection.BulleFruit_seed": {
+                    "DisplayName": "{{i18n:BulleFruit_seed.name}}",
+                    "Seasons": [
+                        "spring",
+                        "summer",
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ID": "Default",
+                            "ItemID": "(O)TeyvatFoodCollection.BulleFruit"
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/FruitTrees",
+                    "TextureSpriteRow": 0
+                }
+            }
+        },
+        {
+            "LogName": "枣椰果树",
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "TeyvatFoodCollection.AjilenakhNut_seed": {
+                    "DisplayName": "{{i18n:AjilenakhNut_seed.name}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ID": "Default",
+                            "ItemID": "(O)TeyvatFoodCollection.AjilenakhNut"
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/FruitTrees",
+                    "TextureSpriteRow": 0
+                }
+            }
+        },
+        {
+            "LogName": "堇瓜果树",
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "TeyvatFoodCollection.LavenderMelon_seed": {
+                    "DisplayName": "{{i18n:LavenderMelon_seed.name}}",
+                    "Seasons": [
+                        "spring",
+                        "summer",
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ID": "Default",
+                            "ItemID": "(O)TeyvatFoodCollection.LavenderMelon"
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/FruitTrees",
+                    "TextureSpriteRow": 0
+                }
+            }
+        },
+        {
+            "LogName": "甜甜花作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "TeyvatFoodCollection.SweetFlower_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        3,
+                        3
+                    ],
+                    "Seasons": [
+                        "spring",
+                        "summer",
+                        "fall",
+                        "winter"
+                    ],
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+                    "NeedsWatering": true,
+                    "HarvestItemID": "TeyvatFoodCollection.SweetFlower",
+                    "HarvestMethod": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "小灯草作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "TeyvatFoodCollection.SmallLampGrass_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        3,
+                        3
+                    ],
+                    "Seasons": [
+                        "summer",
+                        "fall"
+                    ],
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+                    "NeedsWatering": true,
+                    "HarvestItemID": "TeyvatFoodCollection.SmallLampGrass",
+                    "HarvestMethod": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "薄荷作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "TeyvatFoodCollection.Mint_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        3,
+                        3
+                    ],
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+                    "NeedsWatering": true,
+                    "HarvestItemID": "TeyvatFoodCollection.Mint",
+                    "HarvestMethod": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "金鱼草作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "TeyvatFoodCollection.Snapdragon_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        3,
+                        3
+                    ],
+                    "Seasons": [
+                        "summer",
+                        "fall"
+                    ],
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": true,
+                    "NeedsWatering": true,
+                    "HarvestItemID": "TeyvatFoodCollection.Snapdragon",
+                    "HarvestMethod": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "清心作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "TeyvatFoodCollection.Qingxin_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        3,
+                        3
+                    ],
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+                    "NeedsWatering": true,
+                    "HarvestItemID": "TeyvatFoodCollection.Qingxin",
+                    "HarvestMethod": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "琉璃袋作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "TeyvatFoodCollection.Violetgrass_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        3,
+                        3
+                    ],
+                    "Seasons": [
+                        "summer",
+                        "fall"
+                    ],
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+                    "NeedsWatering": true,
+                    "HarvestItemID": "TeyvatFoodCollection.Violetgrass",
+                    "HarvestMethod": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "莲蓬作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "TeyvatFoodCollection.LotusHead_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        3,
+                        3
+                    ],
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": true,
+                    "NeedsWatering": true,
+                    "HarvestItemID": "TeyvatFoodCollection.LotusHead",
+                    "HarvestMethod": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "茉洁草作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "TeyvatFoodCollection.Marcottr_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        3,
+                        3
+                    ],
+                    "Seasons": [
+                        "spring",
+                        "summer"
+                    ],
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+                    "NeedsWatering": true,
+                    "HarvestItemID": "TeyvatFoodCollection.Marcottr",
+                    "HarvestMethod": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "香辛果作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "TeyvatFoodCollection.HarraFruit_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        3,
+                        3
+                    ],
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 2,
+                    "HarvestMaxStack": 2,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+                    "NeedsWatering": true,
+                    "HarvestItemID": "TeyvatFoodCollection.HarraFruit",
+                    "HarvestMethod": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "颗粒果种子作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "TeyvatFoodCollection.Grainfruit_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        3,
+                        3
+                    ],
+                    "Seasons": [
+                        "summer",
+                        "fall"
+                    ],
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+                    "NeedsWatering": true,
+                    "HarvestItemID": "TeyvatFoodCollection.Grainfruit",
+                    "HarvestMethod": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "须弥蔷薇作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "TeyvatFoodCollection.SumeruRose_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        3,
+                        3
+                    ],
+                    "Seasons": [
+                        "summer",
+                        "fall"
+                    ],
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+                    "NeedsWatering": true,
+                    "HarvestItemID": "TeyvatFoodCollection.SumeruRose",
+                    "HarvestMethod": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "苦种作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "TeyvatFoodCollection.Cacahuatl_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        3,
+                        3
+                    ],
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": false,
+                    "NeedsWatering": true,
+                    "HarvestItemID": "TeyvatFoodCollection.Cacahuatl",
+                    "HarvestMethod": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "嘟嘟莲作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "TeyvatFoodCollection.CallaLily_seed": {
+                    "DaysInPhase": [
+                        2,
+                        2,
+                        3,
+                        3
+                    ],
+                    "Seasons": [
+                        "summer",
+                        "fall"
+                    ],
+                    "RegrowDays": -1,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "IsRaised": false,
+                    "IsPaddyCrop": true,
+                    "NeedsWatering": true,
+                    "HarvestItemID": "TeyvatFoodCollection.CallaLily",
+                    "HarvestMethod": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        }
+    ]
+}

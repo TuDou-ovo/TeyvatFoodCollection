@@ -1,0 +1,699 @@
+{
+    "Changes": [
+        {
+            "LogName": "璃月料理配方",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                //四喜圆满 "兽肉*4 竹笋-2 蛋*2 盐*1",
+                "TeyvatFoodCollection.EncompassingGladness_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.EncompassingGladness/s combat 3/",
+                //得闲饮茶 兽肉*1 糖*1
+                "TeyvatFoodCollection.YummyYumCha_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.YummyYumCha/default/",
+                //清热降火汤 日落果*3 糖*1 清心*1 琉璃袋*1
+                "TeyvatFoodCollection.Heat-QuellingSoup_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.Heat-QuellingSoup/s Foraging 3/",
+                //轻策家常菜 普通蘑菇*3 莲蓬*2 辣椒*1 卷心菜*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s combat 3/",
+                //沾露虾仁 虾*4 大麦粉*3 金鱼草*3
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Mining 3/",
+                //云遮玉 莲蓬*1 蛋*1 糖*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Foraging 2/",
+                //连心面 大麦粉*4 禽肉*2 普通蘑菇*2 火腿*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s combat 3/",
+                //绝境求生烤鱼 鱼*1 胡椒*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                //盛世太平 未碾米*4 莲蓬*2 胡萝卜*2 树苗*2
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                //江湖百味 未碾米*3 虾*3 胡萝卜*2
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                //万民堂水煮鱼 鱼*3 辣椒*1 盐*1 琉璃袋*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                //炝炒肉片 兽肉*1 辣椒*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                //文火慢炖腌笃鲜 兽肉*2 火腿*2 竹笋*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                //乾坤摩拉肉 兽肉*1 大麦粉*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                //幽幽大行军 普通蘑菇*2 金鱼草*2
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                //「自有方圆」 蟹黄*1 豆腐*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                //「美梦」 奶*3 糖*1 杏仁*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s combat 2/",
+                //摇·滚·鸡！ 禽肉*2 辣椒*1 胡椒*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Farming 2/",
+                //没有未来菜 兽肉*3 鱼*3 未碾米*3 豆腐*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Farming 3/",
+                //山珍凉卤面 普通蘑菇*3 兽肉*2 大麦粉*2
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Mining 2/",
+            }
+        },
+        //================================================================================//
+        //=璃月============================================================================//
+        //================================================================================//
+        {
+            "LogName": "四喜圆满.闲云",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.EncompassingGladness": {
+                    "Name": "TeyvatFoodCollection.EncompassingGladness",
+                    "Displayname": "{{i18n:EncompassingGladness.name}}",
+                    "Description": "{{i18n:EncompassingGladness.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "Attack": 9
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "得闲饮茶.嘉明",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.YummyYumCha": {
+                    "Name": "TeyvatFoodCollection.YummyYumCha",
+                    "Displayname": "{{i18n:YummyYumCha.name}}",
+                    "Description": "{{i18n:YummyYumCha.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 70,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 0,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "MaxStamina": 20
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "清热降火汤.白术",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Heat-QuellingSoup": {
+                    "Name": "TeyvatFoodCollection.Heat-QuellingSoup",
+                    "Displayname": "{{i18n:Heat-QuellingSoup.name}}",
+                    "Description": "{{i18n:Heat-QuellingSoup.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "ForagingLevel": 2
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "轻策家常菜.瑶瑶",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "Attack": 9
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "沾露虾仁.夜兰",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "Defense": 3
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "云遮玉.云堇",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 20,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 1500,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "Speed": 2
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "连心面.申鹤",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "Attack": 9
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "绝境求生烤鱼.刻晴",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 60,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "MaxStamina": 15
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "盛世太平.甘雨",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 105,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 0,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "MaxStamina": 40
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "江湖百味.行秋",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 120,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "MaxStamina": 25
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "万民堂水煮鱼.香菱",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 200,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "MaxStamina": 35
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "炝炒肉片.北斗",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1,
+                                "MaxStamina": 10
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "文火慢炖腌笃鲜.钟离",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 210,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "MaxStamina": 40
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "乾坤摩拉肉.凝光",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1,
+                                "MaxStamina": 10
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "幽幽大行军.胡桃",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 20,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1,
+                                "MaxStamina": 15
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "「自有方圆」.烟绯",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 20,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1,
+                                "MaxStamina": 15
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "「美梦」.魈",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 20,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "Attack": 4
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "摇·滚·鸡！.辛焱",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 20,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 1
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "没有未来菜.七七",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 2,
+                                "MiningLevel": 2
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "山珍凉卤面.重云",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 20,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "MagneticRadius": 20
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "Changes": [
+        {
+            "LogName": "原版-商店",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Saloon",
+                "Items"
+            ],
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Id": "TeyvatFoodCollection.",
+                    "ItemId": "(O)TeyvatFoodCollection.",
+                    "Price": 200
+                }
+            }
+        },
+    ]
+}

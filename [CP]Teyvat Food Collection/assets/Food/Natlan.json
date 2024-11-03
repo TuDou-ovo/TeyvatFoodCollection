@@ -1,0 +1,156 @@
+{
+    "Changes": [
+        /*
+s Farming 耕种 双爆
+s Fishing 钓鱼 元素
+s Mining 挖矿 防御
+s Foraging 觅食 体力 治疗加成
+s combat 战斗 攻击
+*/
+        {
+            "LogName": "纳塔料理配方",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                //齐齐整整 颗粒果*2 禽肉*1 奶酪*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                //猎龙者的犒赏 兽肉*4 秃秃豆*3 西红柿*3 洋葱*2
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s combat 3/",
+                //好运传递 秃秃豆*4 大麦粉*4 虾*3 洋葱*3
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Mining 3/",
+                //果味奶糖 苦种*4 奶*3 糖*1
+                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Foraging 3/"
+                
+            }
+        },
+        {
+            "LogName": "齐齐整整.卡齐娜",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 120,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "MaxStamina": 30
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "猎龙者的犒赏.基尼奇",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 2,
+                                "MiningLevel": 2
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "好运传递.玛拉妮",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "Defense": 4
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "果味奶糖.希诺宁",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:.name}}",
+                    "Description": "{{i18n:.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 0, //价格
+                    "Edibility": 30,
+                    "IsDrink": false, //是饮料
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "Speed": 3
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        }
+    ]
+}

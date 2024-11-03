@@ -1,0 +1,1128 @@
+{
+    "Changes": [
+        {
+            "LogName": "「寻仙的美食家」",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "TeyvatFoodCollection.AdeptiSeeker'sStove": {
+                    "Name": "TeyvatFoodCollection.AdeptiSeeker'sStove",
+                    "DisplayName": "{{i18n:AdeptiSeeker'sStove.name}}",
+                    "Description": "{{i18n:AdeptiSeeker'sStove.de}}",
+                    "Price": 280,
+                    "CanBePlacedOutDoors": true,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/TeyvatFoodCollection/Animation",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        //================================================================================//
+        //=物品===========================================================================//
+        //================================================================================//
+        {
+            "LogName": "火腿",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Ham": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:Ham.name}}",
+                    "Description": "{{i18n:Ham.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 60,
+                    "Edibility": 10,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "兽肉",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.RawMeat": {
+                    "Name": "TeyvatFoodCollection.RawMeat",
+                    "Displayname": "{{i18n:RawMeat.name}}",
+                    "Description": "{{i18n:RawMeat.de}}",
+                    "Type": "Basic",
+                    "Category": -18,
+                    "Price": 80,
+                    "Edibility": -300,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "黄油",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Butter": {
+                    "Name": "TeyvatFoodCollection.Butter",
+                    "Displayname": "{{i18n:Butter.name}}",
+                    "Description": "{{i18n:Butter.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 50,
+                    "Edibility": -300,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "禽肉",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Fowl": {
+                    "Name": "TeyvatFoodCollection.Fowl",
+                    "Displayname": "{{i18n:Fowl.name}}",
+                    "Description": "{{i18n:Fowl.de}}",
+                    "Type": "Basic",
+                    "Category": -18,
+                    "Price": 80,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "胡椒",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Pepper": {
+                    "Name": "TeyvatFoodCollection.Pepper",
+                    "Displayname": "{{i18n:Pepper.name}}",
+                    "Description": "{{i18n:Pepper.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 50,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "奶油",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Cream": {
+                    "Name": "TeyvatFoodCollection.Cream",
+                    "Displayname": "{{i18n:Cream.name}}",
+                    "Description": "{{i18n:Cream.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 50,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "蟹黄",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.CrabRoe": {
+                    "Name": "TeyvatFoodCollection.CrabRoe",
+                    "Displayname": "{{i18n:CrabRoe.name}}",
+                    "Description": "{{i18n:CrabRoe.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 100,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "培根",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Bacon": {
+                    "Name": "TeyvatFoodCollection.Bacon",
+                    "Displayname": "{{i18n:Bacon.name}}",
+                    "Description": "{{i18n:Bacon.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 70,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "香肠",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Sausage": {
+                    "Name": "TeyvatFoodCollection.Sausage",
+                    "Displayname": "{{i18n:Sausage.name}}",
+                    "Description": "{{i18n:Sausage.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 70,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "圣水",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.HolyWater": {
+                    "Name": "TeyvatFoodCollection.HolyWater",
+                    "Displayname": "{{i18n:HolyWater.name}}",
+                    "Description": "{{i18n:HolyWater.de}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 300,
+                    "Edibility": 1,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "盐",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.salt": {
+                    "Name": "TeyvatFoodCollection.salt",
+                    "Displayname": "{{i18n:salt.name}}",
+                    "Description": "{{i18n:salt.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 50,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "香辛料",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Spice": {
+                    "Name": "TeyvatFoodCollection.Spice",
+                    "Displayname": "{{i18n:Spice.name}}",
+                    "Description": "{{i18n:Spice.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 540,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "豆腐",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Tofu": {
+                    "Name": "TeyvatFoodCollection.Tofu",
+                    "Displayname": "{{i18n:Tofu.name}}",
+                    "Description": "{{i18n:Tofu.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 100,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "杏仁",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Almond": {
+                    "Name": "TeyvatFoodCollection.Almond",
+                    "Displayname": "{{i18n:Almond.name}}",
+                    "Description": "{{i18n:Almond.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 120,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "秃秃豆",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.GlabrousBeans": {
+                    "Name": "TeyvatFoodCollection.GlabrousBeans",
+                    "Displayname": "{{i18n:GlabrousBeans.name}}",
+                    "Description": "{{i18n:GlabrousBeans.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 100,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        //================================================================================//
+        //=植物===========================================================================//
+        //================================================================================//
+        {
+            "LogName": "甜甜花种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.SweetFlower_seed": {
+                    "Name": "TeyvatFoodCollection.SweetFlower_seed",
+                    "Displayname": "{{i18n:SweetFlower_seed.name}}",
+                    "Description": "{{i18n:SweetFlower_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 120,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "甜甜花",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.SweetFlower": {
+                    "Name": "TeyvatFoodCollection.SweetFlower",
+                    "Displayname": "{{i18n:SweetFlower.name}}",
+                    "Description": "{{i18n:SweetFlower.de}}",
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Price": 200,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "小灯草种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.SmallLampGrass_seed": {
+                    "Name": "TeyvatFoodCollection.SmallLampGrass_seed",
+                    "Displayname": "{{i18n:SmallLampGrass_seed.name}}",
+                    "Description": "{{i18n:SmallLampGrass_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 320,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "小灯草",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.SmallLampGrass": {
+                    "Name": "TeyvatFoodCollection.SmallLampGrass",
+                    "Displayname": "{{i18n:SmallLampGrass.name}}",
+                    "Description": "{{i18n:SmallLampGrass.de}}",
+                    "Type": "Basic",
+                    "Category": -81,
+                    "Price": 500,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "薄荷种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Mint_seed": {
+                    "Name": "TeyvatFoodCollection.Mint_seed",
+                    "Displayname": "{{i18n:Mint_seed.name}}",
+                    "Description": "{{i18n:Mint_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 80,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "薄荷",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Mint": {
+                    "Name": "TeyvatFoodCollection.Mint",
+                    "Displayname": "{{i18n:Mint.name}}",
+                    "Description": "{{i18n:Mint.de}}",
+                    "Type": "Basic",
+                    "Category": -81,
+                    "Price": 150,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "金鱼草种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Snapdragon_seed": {
+                    "Name": "TeyvatFoodCollection.Snapdragon_seed",
+                    "Displayname": "{{i18n:Snapdragon_seed.name}}",
+                    "Description": "{{i18n:Snapdragon_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 50,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "金鱼草",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Snapdragon": {
+                    "Name": "TeyvatFoodCollection.Snapdragon",
+                    "Displayname": "{{i18n:Snapdragon.name}}",
+                    "Description": "{{i18n:Snapdragon.de}}",
+                    "Type": "Basic",
+                    "Category": -81,
+                    "Price": 80,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "日落果树苗",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Sunsettia_seed": {
+                    "Name": "TeyvatFoodCollection.Sunsettia_seed",
+                    "Displayname": "{{i18n:Sunsettia_seed.name}}",
+                    "Description": "{{i18n:Sunsettia_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 3200,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "日落果",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Sunsettia": {
+                    "Name": "TeyvatFoodCollection.Sunsettia",
+                    "Displayname": "{{i18n:Sunsettia.name}}",
+                    "Description": "{{i18n:Sunsettia.de}}",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Price": 170,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "清心种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Qingxin_seed": {
+                    "Name": "TeyvatFoodCollection.Qingxin_seed",
+                    "Displayname": "{{i18n:Qingxin_seed.name}}",
+                    "Description": "{{i18n:Qingxin_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 400,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "清心",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Qingxin": {
+                    "Name": "TeyvatFoodCollection.Qingxin",
+                    "Displayname": "{{i18n:Qingxin.name}}",
+                    "Description": "{{i18n:Qingxin.de}}",
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Price": 600,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "琉璃袋种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Violetgrass_seed": {
+                    "Name": "TeyvatFoodCollection.Violetgrass_seed",
+                    "Displayname": "{{i18n:Violetgrass_seed.name}}",
+                    "Description": "{{i18n:Violetgrass_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 580,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "琉璃袋",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Violetgrass": {
+                    "Name": "TeyvatFoodCollection.Violetgrass",
+                    "Displayname": "{{i18n:Violetgrass.name}}",
+                    "Description": "{{i18n:Violetgrass.de}}",
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Price": 1000,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "莲蓬种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.LotusHead_seed": {
+                    "Name": "TeyvatFoodCollection.LotusHead_seed",
+                    "Displayname": "{{i18n:LotusHead_seed.name}}",
+                    "Description": "{{i18n:LotusHead_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 15,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "莲蓬",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.LotusHead": {
+                    "Name": "TeyvatFoodCollection.LotusHead",
+                    "Displayname": "{{i18n:LotusHead.name}}",
+                    "Description": "{{i18n:LotusHead.de}}",
+                    "Type": "Basic",
+                    "Category": -81,
+                    "Price": 30,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "茉洁草种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Marcottr_seed": {
+                    "Name": "TeyvatFoodCollection.Marcottr_seed",
+                    "Displayname": "{{i18n:Marcottr_seed.name}}",
+                    "Description": "{{i18n:Marcottr_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 150,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "茉洁草",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Marcottr": {
+                    "Name": "TeyvatFoodCollection.Marcottr",
+                    "Displayname": "{{i18n:Marcottr.name}}",
+                    "Description": "{{i18n:Marcottr.de}}",
+                    "Type": "Basic",
+                    "Category": -81,
+                    "Price": 240,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "洋葱",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.onion": {
+                    "Name": "TeyvatFoodCollection.onion",
+                    "Displayname": "{{i18n:onion.name}}",
+                    "Description": "{{i18n:onion.de}}",
+                    "Type": "Basic",
+                    "Category": -75,
+                    "Price": 70,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "香辛果种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.HarraFruit_seed": {
+                    "Name": "TeyvatFoodCollection.HarraFruit_seed",
+                    "Displayname": "{{i18n:HarraFruit_seed.name}}",
+                    "Description": "{{i18n:HarraFruit_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 150,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "香辛果",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.HarraFruit": {
+                    "Name": "TeyvatFoodCollection.HarraFruit",
+                    "Displayname": "{{i18n:HarraFruit.name}}",
+                    "Description": "{{i18n:HarraFruit.de}}",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Price": 240,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "绯樱绣球",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.SakuraBloom": {
+                    "Name": "TeyvatFoodCollection.SakuraBloom",
+                    "Displayname": "{{i18n:SakuraBloom.name}}",
+                    "Description": "{{i18n:SakuraBloom.de}}",
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Price": 1500,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "竹笋",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.BambooShoot": {
+                    "Name": "TeyvatFoodCollection.BambooShoot",
+                    "Displayname": "{{i18n:BambooShoot.name}}",
+                    "Description": "{{i18n:BambooShoot.de}}",
+                    "Type": "Basic",
+                    "Category": -81,
+                    "Price": 240,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "颗粒果种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Grainfruit_seed": {
+                    "Name": "TeyvatFoodCollection.Grainfruit_seed",
+                    "Displayname": "{{i18n:Grainfruit_seed.name}}",
+                    "Description": "{{i18n:Grainfruit_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 150,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "颗粒果",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Grainfruit": {
+                    "Name": "TeyvatFoodCollection.",
+                    "Displayname": "{{i18n:Grainfruit.name}}",
+                    "Description": "{{i18n:Grainfruit.de}}",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Price": 240,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "须弥蔷薇种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.SumeruRose_seed": {
+                    "Name": "TeyvatFoodCollection.SumeruRose_seed",
+                    "Displayname": "{{i18n:SumeruRose_seed.name}}",
+                    "Description": "{{i18n:SumeruRose_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 90,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "须弥蔷薇",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.SumeruRose": {
+                    "Name": "TeyvatFoodCollection.SumeruRose",
+                    "Displayname": "{{i18n:SumeruRose.name}}",
+                    "Description": "{{i18n:SumeruRose.de}}",
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Price": 150,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "帕蒂沙兰",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Padisarah": {
+                    "Name": "TeyvatFoodCollection.Padisarah",
+                    "Displayname": "{{i18n:Padisarah.name}}",
+                    "Description": "{{i18n:Padisarah.de}}",
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Price": 1000,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "泡泡桔树苗",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.BulleFruit_seed": {
+                    "Name": "TeyvatFoodCollection.BulleFruit_seed",
+                    "Displayname": "{{i18n:BulleFruit_seed.name}}",
+                    "Description": "{{i18n:BulleFruit_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 6000,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "泡泡桔",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.BulleFruit": {
+                    "Name": "TeyvatFoodCollection.BulleFruit",
+                    "Displayname": "{{i18n:BulleFruit.name}}",
+                    "Description": "{{i18n:BulleFruit.de}}",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Price": 240,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "枣椰树苗",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.AjilenakhNut_seed": {
+                    "Name": "TeyvatFoodCollection.AjilenakhNut_seed",
+                    "Displayname": "{{i18n:AjilenakhNut_seed.name}}",
+                    "Description": "{{i18n:AjilenakhNut_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 6000,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "枣椰",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.AjilenakhNut": {
+                    "Name": "TeyvatFoodCollection.AjilenakhNut",
+                    "Displayname": "{{i18n:AjilenakhNut.name}}",
+                    "Description": "{{i18n:AjilenakhNut.de}}",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Price": 240,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "苦种种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Cacahuatl_seed": {
+                    "Name": "TeyvatFoodCollection.Cacahuatl_seed",
+                    "Displayname": "{{i18n:Cacahuatl_seed.name}}",
+                    "Description": "{{i18n:Cacahuatl_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 140,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "苦种",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Cacahuatl": {
+                    "Name": "TeyvatFoodCollection.Cacahuatl",
+                    "Displayname": "{{i18n:Cacahuatl.name}}",
+                    "Description": "{{i18n:Cacahuatl.de}}",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Price": 240,
+                    "Edibility": 5,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "树王圣体菇",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.RukkhashavaMushrooms": {
+                    "Name": "TeyvatFoodCollection.RukkhashavaMushrooms",
+                    "Displayname": "{{i18n:RukkhashavaMushrooms.name}}",
+                    "Description": "{{i18n:RukkhashavaMushrooms.de}}",
+                    "Type": "Basic",
+                    "Category": -81,
+                    "Price": 1000,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "星蕈",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Starshroom": {
+                    "Name": "TeyvatFoodCollection.Starshroom",
+                    "Displayname": "{{i18n:Starshroom.name}}",
+                    "Description": "{{i18n:Starshroom.de}}",
+                    "Type": "Basic",
+                    "Category": -81,
+                    "Price": 280,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "嘟嘟莲种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.CallaLily_seed": {
+                    "Name": "TeyvatFoodCollection.CallaLily_seed",
+                    "Displayname": "{{i18n:CallaLily_seed.name}}",
+                    "Description": "{{i18n:CallaLily_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 500,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "嘟嘟莲",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.CallaLily": {
+                    "Name": "TeyvatFoodCollection.CallaLily",
+                    "Displayname": "{{i18n:CallaLily.name}}",
+                    "Description": "{{i18n:CallaLily.de}}",
+                    "Type": "Basic",
+                    "Category": -80,
+                    "Price": 1000,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "堇瓜树苗",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.LavenderMelon_seed": {
+                    "Name": "TeyvatFoodCollection.LavenderMelon_seed",
+                    "Displayname": "{{i18n:LavenderMelon_seed.name}}",
+                    "Description": "{{i18n:LavenderMelon_seed.de}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 5000,
+                    "Edibility": -300,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "堇瓜",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.LavenderMelon": {
+                    "Name": "TeyvatFoodCollection.LavenderMelon",
+                    "Displayname": "{{i18n:LavenderMelon.name}}",
+                    "Description": "{{i18n:LavenderMelon.de}}",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Price": 240,
+                    "Edibility": 10,
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        //================================================================================//
+        //=至东===========================================================================//
+        //================================================================================//
+        {
+            "LogName": "极致一钓.鸭鸭",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.SPrizeCatch": {
+                    "Name": "TeyvatFoodCollection.SPrizeCatch",
+                    "Displayname": "{{i18n:SPrizeCatch.name}}",
+                    "Description": "{{i18n:SPrizeCatch.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 1700,
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "Defense": 3
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "炉火的往迹.仆人",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.Hearthfire'sTrail": {
+                    "Name": "TeyvatFoodCollection.Hearthfire'sTrail",
+                    "Displayname": "{{i18n:Hearthfire'sTrail.name}}",
+                    "Description": "{{i18n:Hearthfire'sTrail.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 1100,
+                    "Edibility": 100,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "MaxStamina": 40
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        //================================================================================//
+        //=未知===========================================================================//
+        //================================================================================//
+        {
+            "LogName": "饱腹感凝胶.埃洛伊",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "TeyvatFoodCollection.SatietyGel": {
+                    "Name": "TeyvatFoodCollection.SatietyGel",
+                    "Displayname": "{{i18n:SatietyGel.name}}",
+                    "Description": "{{i18n:SatietyGel.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 200,
+                    "Edibility": 60,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "MaxStamina": 15
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/TeyvatFoodCollection/Objects",
+                    "SpriteIndex": 0
+                }
+            }
+        }
+    ]
+}
