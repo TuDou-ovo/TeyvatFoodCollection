@@ -23,7 +23,7 @@ s combat 战斗 攻击
                 //午后闲茶 蛋*3 大麦粉*2 黄油*2 糖*1
                 "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Foraging 3/",
                 //罪恶 · 非必要处理型 洋葱*3 禽肉*3 鱼*3 土豆*2
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Foraging 3/",
+                "TeyvatFoodCollection.Sin:TheKindthatDoesn'tNeedtobeDealtWith_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.Sin:TheKindthatDoesn'tNeedtobeDealtWith/s Foraging 3/",
                 //「选你喜欢的！」 蛋*3 糖*2 杏仁*2 泡泡橘*1
                 "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Foraging 3/",
                 //独家秘闻·美食专栏 鱼*3 土豆*3 大麦粉*3 盐*1

@@ -1,0 +1,22 @@
+{
+    "Changes": [
+        {
+            "LogName": "林野猪",
+            "Action": "Load",
+            "Target": "Characters/Monsters/TeyvatFoodCollection.",
+            "FromFile": "assets/Monsters/.png"
+        },
+        {
+            "LogName": "蕈猪",
+            "Action": "Load",
+            "Target": "Characters/Monsters/TeyvatFoodCollection.",
+            "FromFile": "assets/Monsters/.png"
+        },
+        {
+            "LogName": "赤鹫",
+            "Action": "Load",
+            "Target": "Characters/Monsters/TeyvatFoodCollection.",
+            "FromFile": "assets/Monsters/.png"
+        },
+    ]
+}

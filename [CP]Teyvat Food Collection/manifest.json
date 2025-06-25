@@ -5,7 +5,7 @@
     "Description": "来自原神的美食",
     "UniqueID": "potato.TeyvatFoodCollectionCP",
     "UpdateKeys": [
-        "Nexus: "
+        "Nexus: 29104"
     ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"

@@ -45,185 +45,84 @@
                             ],
                             "MinutesUntilReady": 50
                         },
-                        { //
-                            "Id": "TeyvatFoodCollection.",
-                            "Triggers": [
-                                {
-                                    "RequiredItemId": "(O)",
-                                    "RequiredCount": 1
-                                }
-                            ],
-                            "UseFirstValidOutput": true,
-                            "OutputItem": [
-                                {
-                                    "CustomData": {
-                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)TeyvatFoodCollection.",
-                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:_need}}"
-                                    },
-                                    "ItemId": "(O)TeyvatFoodCollection.",
-                                    "Quality": 1
-                                }
-                            ],
-                            "MinutesUntilReady": 50
-                        },
-                        //蟹黄
-                        "TeyvatFoodCollection.CrabRoe": {
+                        { //蟹黄
                             "Id": "TeyvatFoodCollection.CrabRoe",
                             "Triggers": [
                                 {
-                                    "Id": "TeyvatFoodCollection.CrabRoe_Trigger",
-                                    "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)717",
                                     "RequiredCount": 4
                                 }
                             ],
-                            "OutputItem": [
-                                {
-                                    "Id": "TeyvatFoodCollection.CrabRoe_Giver",
-                                    "ItemId": "(O)TeyvatFoodCollection.CrabRoe",
-                                    "MinStack": 1,
-                                    "CopyQuality": true
-                                }
-                            ],
-                            "MinutesUntilReady": 50
-                        },
-                        { //
-                            "Id": "TeyvatFoodCollection.",
-                            "Triggers": [
-                                {
-                                    "RequiredItemId": "(O)",
-                                    "RequiredCount": 1
-                                }
-                            ],
                             "UseFirstValidOutput": true,
                             "OutputItem": [
                                 {
-                                    "CustomData": {
-                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)TeyvatFoodCollection.",
-                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:_need}}"
-                                    },
-                                    "ItemId": "(O)TeyvatFoodCollection.",
+                                    "ItemId": "(O)TeyvatFoodCollection.CrabRoe",
                                     "Quality": 1
                                 }
                             ],
                             "MinutesUntilReady": 50
                         },
-                        //香肠
-                        "TeyvatFoodCollection.Sausage": {
+                        { //香肠
                             "Id": "TeyvatFoodCollection.Sausage",
                             "Triggers": [
                                 {
-                                    "Id": "TeyvatFoodCollection.Sausage_Trigger",
-                                    "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)TeyvatFoodCollection.RawMeat",
                                     "RequiredCount": 3
                                 }
                             ],
-                            "OutputItem": [
-                                {
-                                    "Id": "TeyvatFoodCollection.Sausage_Giver",
-                                    "ItemId": "(O)TeyvatFoodCollection.Sausage",
-                                    "MinStack": 1,
-                                    "CopyQuality": true
-                                }
-                            ],
-                            "MinutesUntilReady": 50
-                        },
-                        { //
-                            "Id": "TeyvatFoodCollection.",
-                            "Triggers": [
-                                {
-                                    "RequiredItemId": "(O)",
-                                    "RequiredCount": 1
-                                }
-                            ],
                             "UseFirstValidOutput": true,
                             "OutputItem": [
                                 {
-                                    "CustomData": {
-                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)TeyvatFoodCollection.",
-                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:_need}}"
-                                    },
-                                    "ItemId": "(O)TeyvatFoodCollection.",
+                                    "ItemId": "(O)TeyvatFoodCollection.Sausage",
                                     "Quality": 1
                                 }
                             ],
                             "MinutesUntilReady": 50
                         },
-                        //香辛料
-                        "TeyvatFoodCollection.Spice": {
+                        { //香辛料
                             "Id": "TeyvatFoodCollection.Spice",
                             "Triggers": [
                                 {
-                                    "Id": "TeyvatFoodCollection.Spice_Trigger",
-                                    "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)TeyvatFoodCollection.HarraFruit",
                                     "RequiredCount": 2
                                 }
                             ],
-                            "OutputItem": [
-                                {
-                                    "Id": "TeyvatFoodCollection.Spice_Giver",
-                                    "ItemId": "(O)TeyvatFoodCollection.Spice",
-                                    "MinStack": 1,
-                                    "CopyQuality": true
-                                }
-                            ],
-                            "MinutesUntilReady": 50
-                        },
-                        { //
-                            "Id": "TeyvatFoodCollection.",
-                            "Triggers": [
-                                {
-                                    "RequiredItemId": "(O)",
-                                    "RequiredCount": 1
-                                }
-                            ],
                             "UseFirstValidOutput": true,
                             "OutputItem": [
                                 {
-                                    "CustomData": {
-                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)TeyvatFoodCollection.",
-                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:_need}}"
-                                    },
-                                    "ItemId": "(O)TeyvatFoodCollection.",
+                                    "ItemId": "(O)TeyvatFoodCollection.Spice",
                                     "Quality": 1
                                 }
                             ],
                             "MinutesUntilReady": 50
                         },
-                        //培根
-                        "TeyvatFoodCollection.Bacon": {
+                        { //培根
                             "Id": "TeyvatFoodCollection.Bacon",
                             "Triggers": [
                                 {
-                                    "Id": "TeyvatFoodCollection.Bacon_Trigger",
-                                    "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)TeyvatFoodCollection.RawMeat",
                                     "RequiredCount": 2
                                 }
                             ],
+                            "UseFirstValidOutput": true,
                             "OutputItem": [
                                 {
-                                    "Id": "TeyvatFoodCollection.Bacon_Giver",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)TeyvatFoodCollection.salt",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 2,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:salt2_need}}"
+                                    },
                                     "ItemId": "(O)TeyvatFoodCollection.Bacon",
-                                    "MinStack": 1,
-                                    "CopyQuality": true
-                                }
-                            ],
-                            "AdditionalConsumedItems": [
-                                {
-                                    "ItemId": "(O)TeyvatFoodCollection.salt",
-                                    "MinStack": 2
+                                    "Quality": 1
                                 }
                             ],
                             "MinutesUntilReady": 50
                         },
-                        { //
-                            "Id": "TeyvatFoodCollection.",
+                        { //火腿
+                            "Id": "TeyvatFoodCollection.Ham",
                             "Triggers": [
                                 {
-                                    "RequiredItemId": "(O)",
+                                    "RequiredItemId": "(O)TeyvatFoodCollection.salt",
                                     "RequiredCount": 1
                                 }
                             ],
@@ -231,45 +130,19 @@
                             "OutputItem": [
                                 {
                                     "CustomData": {
-                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)TeyvatFoodCollection.",
-                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:_need}}"
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)TeyvatFoodCollection.RawMeat",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 2,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RawMeat2_need}}"
                                     },
-                                    "ItemId": "(O)TeyvatFoodCollection.",
+                                    "ItemId": "(O)TeyvatFoodCollection.Ham",
                                     "Quality": 1
                                 }
                             ],
                             "MinutesUntilReady": 50
-                        },
-                        //火腿
-                        "TeyvatFoodCollection.Ham": {
-                            "Id": "TeyvatFoodCollection.Ham",
-                            "Triggers": [
-                                {
-                                    "Id": "TeyvatFoodCollection.Ham_Trigger",
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O)TeyvatFoodCollection.salt",
-                                    "RequiredCount": 1
-                                }
-                            ],
-                            "OutputItem": [
-                                {
-                                    "Id": "TeyvatFoodCollection.Ham_Giver",
-                                    "ItemId": "(O)TeyvatFoodCollection.Ham",
-                                    "MinStack": 1,
-                                    "CopyQuality": true
-                                }
-                            ],
-                            "AdditionalConsumedItems": [
-                                {
-                                    "ItemId": "(O)TeyvatFoodCollection.RawMeat",
-                                    "MinStack": 2
-                                }
-                            ],
-                            "MinutesUntilReady": 50
-                        },
+                        }
                     ]
                 }
             }
-        },
+        }
     ]
 }

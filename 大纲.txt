@@ -1,12 +1,108 @@
+模组持续更新优化中，因为制作只有我一个人，所以可能会有我测试不到的bug，希望随时反馈我会尽快修复...！
+模组评论区或者我的 *bilibili* 账号 *GitHub* 网站 的反馈我都可以收到 
 
+The module is continuously being updated and optimized. As I am the only one in charge of production, there may be bugs that I cannot test. I hope to receive feedback at any time and I will fix them as soon as possible!
+I can receive feedback from the mod comment section or my * bilibili * account * Github * website
+https://github.com/TuDou-ovo/TeyvatFoodCollection
+
+以及提前感谢你的下载和喜欢，我很荣幸~
+And thank you in advance for downloading and liking, I am honored~
+
+往下是一些简短的图文介绍
+Below are some brief graphic and textual introductions
 
 关于翻译
-对着图鉴手打的 可能会有错误
-没有翻译的是我没抽到 谁知道或者有统计了的网站可以敲敲我 我真的很需要 拜托拜托
+Regarding Translation
+
+发布内容里的翻译是对照图鉴手动输入的，因为介绍太长了所以只翻译了名字
+文件内的没有翻译的物品是因为我没有获得它，如果谁知道请敲敲我，我真的很需要 拜托拜托
+
+The translation in the published content was manually entered based on the reference image, and only the name was translated because the introduction was too long
+I didn't receive the item without translation. Who knows, or websites with statistical data can knock on me. I really need it, please, please TwT
+
+兼容性 · Compatibility
+SVE ✔
+
+
+地图 · Map
+山里添加了几个传送锚点，你可以通过它们到达一些地区，你在里面或许能找到一些有趣的东西
+具体是什么地图...?前面的区域，自己去探索吧！
+
+Several teleportation anchors have been added in the mountains, which allow you to reach some areas. You may find some interesting things inside
+What specific map is it? Explore the area ahead by yourself!
+
+
+物品 · Objects
+你可以通过加工或者在商店购买来获得它们
+You can obtain them through processing or by purchasing them in stores
+
+种子店 Seed Shop
+胡椒 Pepper /盐 salt /豆腐 Tofu /杏仁 Almond /秃秃豆 Glabrous Beans /洋葱 onion /
+
+采集 Foraging
+绯樱绣球 Sakura Bloom /竹笋 Bamboo Shoot /帕蒂沙兰 Padisarah /树王圣体菇 Rukkhashava Mushrooms /星蕈 Starshroom /
+
+???
+圣水 HolyWater 
+
+
+机器 · Machines
+这是物品的加工方式，当然商店也可以购买
+This is the processing method of the item, of course, stores can also purchase it
+
+「寻仙的美食家」：觅食3级解锁建造配方 
+Adepti Seeker's Stove ：Foraging 3 unlocks building formulas
+
+火腿 Ham /黄油 Butter /奶油 Cream /蟹黄 Crab Roe /培根 Bacon /香肠 Sausage /香辛料 Spice 
+
+
+怪物 · Monster
+你可以狩猎它们，就像在游戏原神里一样
+You can hunt them, just like in the game of Genshin Impact
+
+兽肉 Raw Meat /禽肉 Fowl 
+
+
+果树 · FruitTrees
+你可以在商店购买到它们的树苗
+You can purchase their saplings in the store
+
+种子店 Seed Shop
+日落果 Sunsettia /泡泡桔 Bulle Fruit /枣椰 Ajilenakh Nut /堇瓜 Lavender Melon 
+
+
+作物 · Crops
+你可以在商店购买到他们的种子，一些植物也可以在地图上采集
+You can purchase their seeds in the store, and some plants can also be collected on the map
+
+种子店 Seed Shop
+甜甜花 Sweet Flower /小灯草 Small Lamp Grass /薄荷 Mint /金鱼草 Snapdragon /清心 Qingxin /琉璃袋 Violetgrass /莲蓬 Lotus Head /茉洁草 Marcottr /香辛果 Harra Fruit /颗粒果 Grainfruit /须弥蔷薇 Sumeru Rose /苦种 Cacahuatl /嘟嘟莲 Calla Lily 
+
+
+接下来是食物的展示，这里只是展示，具体获取方式请直接翻到网页末尾
+Next is the display of food, this is just a display. For specific ways to obtain it, please go directly to the end of the webpage
+
+蒙德 · Mondstadt
+
+璃月 · Liyue
+
+稻妻 · Inazuma
+
+须弥 · Sumeru
+
+枫丹 · Fontaine
+
+纳塔 · Natlan
+
+至东 · Snezhnaya
+
+联动 · Other
+
+获取方式 · access
 
 
 前置
-Content Patcher    Extra Machine Configs
+Content Patcher    Extra Machine Configs    Farm Type Manager
 
 胡萝卜 35
 蘑菇 40
@@ -66,10 +162,10 @@ s combat 战斗 攻击
 
 鸭鸭
 ==================================================================================
-··················································································
+ ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
 ==================================================================================
 ==================================================================================
-··················································································
+ ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
 ==================================================================================
 ★★★★★
 
@@ -161,7 +257,7 @@ s combat 战斗 攻击
 
 
 ==================================================================================
-··················································································
+ ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
 ==================================================================================
 
 材料/Material
@@ -362,36 +458,36 @@ s combat 战斗 攻击
 劫波莲 Kalpalata Lotus
 
 ==================================================================================
-··················································································
+ ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
 ==================================================================================
 
 
 
 ==================================================================================
-··················································································
+ ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
 ==================================================================================
 
 
 
 ==================================================================================
-··················································································
+ ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
 ==================================================================================
 
 
 ==================================================================================
-··················································································
-==================================================================================
-
-
-
-==================================================================================
-··················································································
+ ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
 ==================================================================================
 
 
 
 ==================================================================================
-··················································································
+ ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
+==================================================================================
+
+
+
+==================================================================================
+ ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
 ==================================================================================
 
 

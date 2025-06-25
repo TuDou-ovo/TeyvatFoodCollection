@@ -5,46 +5,46 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
-                //四喜圆满 "兽肉*4 竹笋-2 蛋*2 盐*1",
-                "TeyvatFoodCollection.EncompassingGladness_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.EncompassingGladness/s combat 3/",
+                //四喜圆满 "兽肉*4 竹笋*2 蛋*2 盐*1",
+                "TeyvatFoodCollection.EncompassingGladness_Recipes": "TeyvatFoodCollection.材料ID 4 材料ID 数量/10 10/TeyvatFoodCollection.EncompassingGladness/default/",
                 //得闲饮茶 兽肉*1 糖*1
                 "TeyvatFoodCollection.YummyYumCha_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.YummyYumCha/default/",
                 //清热降火汤 日落果*3 糖*1 清心*1 琉璃袋*1
-                "TeyvatFoodCollection.Heat-QuellingSoup_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.Heat-QuellingSoup/s Foraging 3/",
+                "TeyvatFoodCollection.Heat-QuellingSoup_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.Heat-QuellingSoup/default/",
                 //轻策家常菜 普通蘑菇*3 莲蓬*2 辣椒*1 卷心菜*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s combat 3/",
+                "TeyvatFoodCollection.QingceHouseholdDish_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.QingceHouseholdDish/default/",
                 //沾露虾仁 虾*4 大麦粉*3 金鱼草*3
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Mining 3/",
+                "TeyvatFoodCollection.Dew-DippedShrimp_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.Dew-DippedShrimp/default/",
                 //云遮玉 莲蓬*1 蛋*1 糖*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Foraging 2/",
+                "TeyvatFoodCollection.Cloud-ShroudedJade_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.Cloud-ShroudedJade/default/",
                 //连心面 大麦粉*4 禽肉*2 普通蘑菇*2 火腿*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s combat 3/",
+                "TeyvatFoodCollection.HeartsteingNoodles_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.HeartsteingNoodles/default/",
                 //绝境求生烤鱼 鱼*1 胡椒*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.SurvivalGrilledFish_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.SurvivalGrilledFish/default/",
                 //盛世太平 未碾米*4 莲蓬*2 胡萝卜*2 树苗*2
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.ProsperousPeace_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.ProsperousPeace/default/",
                 //江湖百味 未碾米*3 虾*3 胡萝卜*2
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.All-DelicacyParcels_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.All-DelicacyParcels/default/",
                 //万民堂水煮鱼 鱼*3 辣椒*1 盐*1 琉璃袋*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.WanminRestaurant'sBoiledFish_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.WanminRestaurant'sBoiledFish/default/",
                 //炝炒肉片 兽肉*1 辣椒*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.Flash-FriedFilet_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.Flash-FriedFilet/default/",
                 //文火慢炖腌笃鲜 兽肉*2 火腿*2 竹笋*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.Slow-CookedBambooSoup_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.Slow-CookedBambooSoup/default/",
                 //乾坤摩拉肉 兽肉*1 大麦粉*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.QiankunMoraMeat_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.QiankunMoraMeat/default/",
                 //幽幽大行军 普通蘑菇*2 金鱼草*2
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.GhostlyMarch_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.GhostlyMarch/default/",
                 //「自有方圆」 蟹黄*1 豆腐*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.MyWay_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.MyWay/default/",
                 //「美梦」 奶*3 糖*1 杏仁*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s combat 2/",
+                "TeyvatFoodCollection.SweetDream_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.SweetDream/default/",
                 //摇·滚·鸡！ 禽肉*2 辣椒*1 胡椒*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Farming 2/",
+                "TeyvatFoodCollection.Rockin'Riffin'Chicken_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.Rockin'Riffin'Chicken/default/",
                 //没有未来菜 兽肉*3 鱼*3 未碾米*3 豆腐*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Farming 3/",
+                "TeyvatFoodCollection.NoTomorrow_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.NoTomorrow/default/",
                 //山珍凉卤面 普通蘑菇*3 兽肉*2 大麦粉*2
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Mining 2/",
+                "TeyvatFoodCollection.ColdNoodleswithMountainDelicacies_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.ColdNoodleswithMountainDelicacies/default/",
             }
         },
         //================================================================================//
@@ -151,10 +151,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.QingceHouseholdDish": {
+                    "Name": "TeyvatFoodCollection.QingceHouseholdDish",
+                    "Displayname": "{{i18n:QingceHouseholdDish.name}}",
+                    "Description": "{{i18n:QingceHouseholdDish.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -183,10 +183,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.Dew-DippedShrimp": {
+                    "Name": "TeyvatFoodCollection.Dew-DippedShrimp",
+                    "Displayname": "{{i18n:Dew-DippedShrimp.name}}",
+                    "Description": "{{i18n:Dew-DippedShrimp.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -215,10 +215,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.Cloud-ShroudedJade": {
+                    "Name": "TeyvatFoodCollection.Cloud-ShroudedJade",
+                    "Displayname": "{{i18n:Cloud-ShroudedJade.name}}",
+                    "Description": "{{i18n:Cloud-ShroudedJade.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -247,10 +247,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.HeartsteingNoodles": {
+                    "Name": "TeyvatFoodCollection.HeartsteingNoodles",
+                    "Displayname": "{{i18n:HeartsteingNoodles.name}}",
+                    "Description": "{{i18n:HeartsteingNoodles.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -279,10 +279,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.SurvivalGrilledFish": {
+                    "Name": "TeyvatFoodCollection.SurvivalGrilledFish",
+                    "Displayname": "{{i18n:SurvivalGrilledFish.name}}",
+                    "Description": "{{i18n:SurvivalGrilledFish.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -311,10 +311,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.ProsperousPeace": {
+                    "Name": "TeyvatFoodCollection.ProsperousPeace",
+                    "Displayname": "{{i18n:ProsperousPeace.name}}",
+                    "Description": "{{i18n:ProsperousPeace.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -343,10 +343,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.All-DelicacyParcels": {
+                    "Name": "TeyvatFoodCollection.All-DelicacyParcels",
+                    "Displayname": "{{i18n:All-DelicacyParcels.name}}",
+                    "Description": "{{i18n:All-DelicacyParcels.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -375,10 +375,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.WanminRestaurant'sBoiledFish": {
+                    "Name": "TeyvatFoodCollection.WanminRestaurant'sBoiledFish",
+                    "Displayname": "{{i18n:WanminRestaurant'sBoiledFish.name}}",
+                    "Description": "{{i18n:WanminRestaurant'sBoiledFish.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -407,10 +407,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.Flash-FriedFilet": {
+                    "Name": "TeyvatFoodCollection.Flash-FriedFilet",
+                    "Displayname": "{{i18n:Flash-FriedFilet.name}}",
+                    "Description": "{{i18n:Flash-FriedFilet.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -440,10 +440,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.Slow-CookedBambooSoup": {
+                    "Name": "TeyvatFoodCollection.Slow-CookedBambooSoup",
+                    "Displayname": "{{i18n:Slow-CookedBambooSoup.name}}",
+                    "Description": "{{i18n:Slow-CookedBambooSoup.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -472,10 +472,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.QiankunMoraMeat": {
+                    "Name": "TeyvatFoodCollection.QiankunMoraMeat",
+                    "Displayname": "{{i18n:QiankunMoraMeat.name}}",
+                    "Description": "{{i18n:QiankunMoraMeat.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -505,10 +505,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.GhostlyMarch": {
+                    "Name": "TeyvatFoodCollection.GhostlyMarch",
+                    "Displayname": "{{i18n:GhostlyMarch.name}}",
+                    "Description": "{{i18n:GhostlyMarch.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -538,10 +538,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.MyWay": {
+                    "Name": "TeyvatFoodCollection.MyWay",
+                    "Displayname": "{{i18n:MyWay.name}}",
+                    "Description": "{{i18n:MyWay.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -571,10 +571,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.SweetDream": {
+                    "Name": "TeyvatFoodCollection.SweetDream",
+                    "Displayname": "{{i18n:SweetDream.name}}",
+                    "Description": "{{i18n:SweetDream.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -603,10 +603,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.Rockin'Riffin'Chicken": {
+                    "Name": "TeyvatFoodCollection.Rockin'Riffin'Chicken",
+                    "Displayname": "{{i18n:Rockin'Riffin'Chicken.name}}",
+                    "Description": "{{i18n:Rockin'Riffin'Chicken.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -635,10 +635,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.NoTomorrow": {
+                    "Name": "TeyvatFoodCollection.NoTomorrow",
+                    "Displayname": "{{i18n:NoTomorrow.name}}",
+                    "Description": "{{i18n:NoTomorrow.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -668,10 +668,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.ColdNoodleswithMountainDelicacies": {
+                    "Name": "TeyvatFoodCollection.ColdNoodleswithMountainDelicacies",
+                    "Displayname": "{{i18n:ColdNoodleswithMountainDelicacies.name}}",
+                    "Description": "{{i18n:ColdNoodleswithMountainDelicacies.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格

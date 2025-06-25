@@ -13,31 +13,31 @@ s combat 战斗 攻击
             "Target": "Data/CookingRecipes",
             "Entries": {
                 //憧憬 兽肉*3 大麦粉*3 西红柿*2 奶*2
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.Yearning_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.Yearning/default/",
                 //「理想情况」兽肉*2 金鱼草*1 洋葱*2 香辛料*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.IdealCircumstance_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.IdealCircumstance/default/",
                 //安眠奢想 奶*2 须弥蔷薇*2 糖*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.ExtravagantSlumber_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.ExtravagantSlumber/default/",
                 //决斗之魂 未碾米*4 禽肉*2 鱼*2 帕蒂沙兰*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.DuelSoul_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.DuelSoul/default/",
                 //悉心一作 大麦粉*3 秃秃豆*2 奶*2 薄荷*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.TheEndeavor_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.TheEndeavor/default/",
                 //古法秘制椰炭饼 椰枣*2 大麦粉*1 果酱*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
+                "TeyvatFoodCollection.Traditionally-MadeCharcoal-BakedAjilenakhCake_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./default/",
                 //炽金之锅 兽肉*2 帕蒂沙兰*2 香辛料*1 洋葱*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Mining 3/",
+                "TeyvatFoodCollection.GoldfiameTajine_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.GoldfiameTajine/s Mining 3/",
                 //巡林官精选 树王圣体菇-1 普通蘑菇*1 星*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Mining 2/",
+                "TeyvatFoodCollection.ForestWatcher'sChoice_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.ForestWatcher'sChoice/s Mining 2/",
                 //哈瓦玛玛兹 椰枣*4 杏仁*2 黄油*2 须弥蔷薇*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Mining 2/",
+                "TeyvatFoodCollection.Halvamazd_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.Halvamazd/s Mining 2/",
                 //关怀备至 未碾米*3 大麦粉*2 秃秃豆*2 西红柿*2
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Foraging 2/",
+                "TeyvatFoodCollection.UtmostCare_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.UtmostCare/s Foraging 2/",
                 //婆娑一舞 帕蒂沙兰*2 须弥蔷薇*1 奶*1 糖*1
                 "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s Foraging 3/",
                 //摩拉急速来 禽肉*3 西红柿*3 黄油*1 香辛料*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s combat 3/",
+                "TeyvatFoodCollection.ShowMetheMora_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.ShowMetheMora/s combat 3/",
                 //烤肉香香香卷 兽肉*2 大麦粉*2 香辛料*1
-                "TeyvatFoodCollection._Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection./s combat 2/",
+                "TeyvatFoodCollection.Super-Dee-DuperDeliciousMeatRoll_Recipes": "TeyvatFoodCollection.材料ID 数量 材料ID 数量/10 10/TeyvatFoodCollection.Super-Dee-DuperDeliciousMeatRoll/s combat 2/",
             }
         },
         {
@@ -45,10 +45,10 @@ s combat 战斗 攻击
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.Yearning": {
+                    "Name": "TeyvatFoodCollection.Yearning",
+                    "Displayname": "{{i18n:Yearning.name}}",
+                    "Description": "{{i18n:Yearning.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -77,10 +77,10 @@ s combat 战斗 攻击
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.IdealCircumstance": {
+                    "Name": "TeyvatFoodCollection.IdealCircumstance",
+                    "Displayname": "{{i18n:IdealCircumstance.name}}",
+                    "Description": "{{i18n:IdealCircumstance.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -109,10 +109,10 @@ s combat 战斗 攻击
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.ExtravagantSlumber": {
+                    "Name": "TeyvatFoodCollection.ExtravagantSlumber",
+                    "Displayname": "{{i18n:ExtravagantSlumber.name}}",
+                    "Description": "{{i18n:ExtravagantSlumber.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -141,10 +141,10 @@ s combat 战斗 攻击
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.DuelSoul": {
+                    "Name": "TeyvatFoodCollection.DuelSoul",
+                    "Displayname": "{{i18n:DuelSoul.name}}",
+                    "Description": "{{i18n:DuelSoul.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -173,10 +173,10 @@ s combat 战斗 攻击
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.TheEndeavor": {
+                    "Name": "TeyvatFoodCollection.TheEndeavor",
+                    "Displayname": "{{i18n:TheEndeavor.name}}",
+                    "Description": "{{i18n:TheEndeavor.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -206,10 +206,10 @@ s combat 战斗 攻击
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.Traditionally-MadeCharcoal-BakedAjilenakhCake": {
+                    "Name": "TeyvatFoodCollection.Traditionally-MadeCharcoal-BakedAjilenakhCake",
+                    "Displayname": "{{i18n:Traditionally-MadeCharcoal-BakedAjilenakhCake.name}}",
+                    "Description": "{{i18n:Traditionally-MadeCharcoal-BakedAjilenakhCake.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -239,10 +239,10 @@ s combat 战斗 攻击
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.GoldfiameTajine": {
+                    "Name": "TeyvatFoodCollection.GoldfiameTajine",
+                    "Displayname": "{{i18n:GoldfiameTajine.name}}",
+                    "Description": "{{i18n:GoldfiameTajine.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -271,10 +271,10 @@ s combat 战斗 攻击
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.ForestWatcher'sChoice": {
+                    "Name": "TeyvatFoodCollection.ForestWatcher'sChoice",
+                    "Displayname": "{{i18n:ForestWatcher'sChoice.name}}",
+                    "Description": "{{i18n:ForestWatcher'sChoice.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -303,10 +303,10 @@ s combat 战斗 攻击
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.Halvamazd": {
+                    "Name": "TeyvatFoodCollection.Halvamazd",
+                    "Displayname": "{{i18n:Halvamazd.name}}",
+                    "Description": "{{i18n:Halvamazd.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -335,10 +335,10 @@ s combat 战斗 攻击
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.UtmostCare": {
+                    "Name": "TeyvatFoodCollection.UtmostCare",
+                    "Displayname": "{{i18n:UtmostCare.name}}",
+                    "Description": "{{i18n:UtmostCare.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -399,10 +399,10 @@ s combat 战斗 攻击
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.ShowMetheMora": {
+                    "Name": "TeyvatFoodCollection.ShowMetheMora",
+                    "Displayname": "{{i18n:ShowMetheMora.name}}",
+                    "Description": "{{i18n:ShowMetheMora.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -431,10 +431,10 @@ s combat 战斗 攻击
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
+                "TeyvatFoodCollection.Super-Dee-DuperDeliciousMeatRoll": {
+                    "Name": "TeyvatFoodCollection.Super-Dee-DuperDeliciousMeatRoll",
+                    "Displayname": "{{i18n:Super-Dee-DuperDeliciousMeatRoll.name}}",
+                    "Description": "{{i18n:Super-Dee-DuperDeliciousMeatRoll.de}}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 0, //价格
@@ -457,89 +457,6 @@ s combat 战斗 攻击
                     "SpriteIndex": 0
                 }
             }
-        },
-        
-        {
-            "LogName": "菜品",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
-                    "Type": "Basic",
-                    "Category": -7,
-                    "Price": 0, //价格
-                    "Edibility": 50,
-                    "IsDrink": false, //是饮料
-                    "Buffs": [
-                        {
-                            "ID": "Food",
-                            "BuffID": null,
-                            "Duration": 0,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0, //耕种
-                                "FishingLevel": 0, //钓鱼
-                                "MiningLevel": 0, //挖掘
-                                "LuckLevel": 0, //幸运
-                                "ForagingLevel": 0, //觅食
-                                "MaxStamina": 0, //体力
-                                "MagneticRadius": 0, //磁力
-                                "Speed": 0, //速度
-                                "Defense": 0, //防御
-                                "Attack": 0
-                            },
-                            "CustomFields": null
-                        }
-                    ],
-                    "Texture": "Mods/TeyvatFoodCollection/Objects",
-                    "SpriteIndex": 0
-                }
-            }
-        },
-        {
-            "LogName": "菜品",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
-                "TeyvatFoodCollection.": {
-                    "Name": "TeyvatFoodCollection.",
-                    "Displayname": "{{i18n:.name}}",
-                    "Description": "{{i18n:.de}}",
-                    "Type": "Basic",
-                    "Category": -7,
-                    "Price": 0, //价格
-                    "Edibility": 50,
-                    "IsDrink": false, //是饮料
-                    "Buffs": [
-                        {
-                            "ID": "Food",
-                            "BuffID": null,
-                            "Duration": 0,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0, //耕种
-                                "FishingLevel": 0, //钓鱼
-                                "MiningLevel": 0, //挖掘
-                                "LuckLevel": 0, //幸运
-                                "ForagingLevel": 0, //觅食
-                                "MaxStamina": 0, //体力
-                                "MagneticRadius": 0, //磁力
-                                "Speed": 0, //速度
-                                "Defense": 0, //防御
-                                "Attack": 0
-                            },
-                            "CustomFields": null
-                        }
-                    ],
-                    "Texture": "Mods/TeyvatFoodCollection/Objects",
-                    "SpriteIndex": 0
-                }
-            }
-        },
+        }
     ]
 }
